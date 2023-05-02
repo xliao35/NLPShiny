@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.headbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color:white;
+  margin-left: 10;
+}
+.header {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15%;
+}
+
+.sidebar {
+  position: absolute;
+  width: 20%;
+  height: 90%;
+  background-color: #454545;
+}
+
+.pageContainer {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard {
+  margin-top: 1%;
+  margin-left: 25%;
+}
+
+.container {
+  width: 100%;
+}
+
+.mainPage {
+  flex: 1;
+}
+.projScreen {
+  /* background-color: black;
+  width: 100%; */
+  height: 550px;
+  overflow-y: scroll;
+}
+
+.projectdesc {
+  flex-direction: row;
+  background-color: whitesmoke ;
+  padding: 1%;
+  margin-top: 2%;
+}
+
+.headtab {
+  flex:1
+}
+.image {
+  transition:transform 0.25s ease;
+  margin-left: 30%;
+}
+
+.image:hover {
+  -webkit-transform:scale(2); /* or some other value */
+  transform:scale(2);
+  align-self: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+
+.table {
+  width: '90%';
+}
+
+.tableContainer {
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  height: 70vh;
+  width: 65vw;
+  overflow: scroll;
+}
+
+.bottom_menu {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color:black;
+}
+.fileChooser {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  color: whitesmoke;
+}
+
+.inputFile {
+  margin-top: 10;
+}
+
+h4 {
+  margin-left: 10px;
+}
+a:link {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:visited {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 500;
+}
+/*# sourceMappingURL=styles.css.map */
