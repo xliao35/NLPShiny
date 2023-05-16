@@ -6,18 +6,16 @@ project_instruction = ui.div(class_ = "projectinst", children = [
         ui.tags.table(class_ = "table", children=[
             ui.tags.tr(children=[
                 ui.tags.th("username"),
-                ui.tags.th("user_join_date"),
                 ui.tags.th("comment_body"),
                 ui.tags.th("comment_created_at"),
             ]),
             ui.tags.tr(children=[
                 ui.tags.td("12345"),
-                ui.tags.td("2023-05-03T16:00:00.000Z"),
                 ui.tags.td("This is an example comment"),
                 ui.tags.td("2023-05-05T16:00:00.000Z"),
             ]),
         ]),
-        ui.img(class_='image', src = 'sample_data.png', alt='sample image', width='35%')
+        ui.img(class_='image', src = 'sample_data_img.png', alt='sample image', width='35%')
     ]),
     ui.br(),
     ui.h6("Text mining/Preprocessing options"),
